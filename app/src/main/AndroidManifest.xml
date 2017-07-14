@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a123.example.com.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/present"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home"
+        android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewAllEmployee"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ViewEmployee"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".JudgeLogin"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Judge1View"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Judge1Edit"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Judge2View"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Judge2Edit"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".AdminLogin"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>
